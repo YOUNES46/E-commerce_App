@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".LogineActivity">
+    <ImageView
+        android:id="@+id/logine_app_logo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/applogo"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone_number_login"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_designe"
+        android:padding="20dp"
+        android:textSize="18sp"
+        android:inputType="number"
+        android:textAllCaps="false"
+        android:hint="رقم الهاتف"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="15dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password_login"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_designe"
+        android:padding="20dp"
+        android:textSize="18sp"
+        android:inputType="textPassword"
+        android:textAllCaps="false"
+        android:hint="كلمة السر"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="15dp"
+        />
+    <CheckBox
+        android:id="@+id/chekbox_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="البقاء متصل"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="15dp"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/not_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="انا لست ادمن"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:textColor="#E53935"
+            android:layout_gravity="center_horizontal"
+            android:visibility="invisible"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="نسيت كلمة السر"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:textColor="#E53935"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttons"
+
+        />
+    <TextView
+        android:id="@+id/am_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="انا ادمن؟"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:textColor="#E53935"
+        android:layout_gravity="center_horizontal"
+
+        />
+        </LinearLayout>
+    <Button
+        android:id="@+id/joinlogin_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="20dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:text=" دخول"
+        android:textColor="@android:color/black"
+        android:layout_alignParentLeft="true" />
+
+
+
+
+
+
+</LinearLayout>
